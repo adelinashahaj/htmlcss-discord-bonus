@@ -1,0 +1,308 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: rgb(0, 98, 255);
+}
+.header-top{
+    
+    height: 100px;
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.logo-header{
+    background-color: rgb(0, 98, 255); 
+    width: 20%;
+    padding: 10px;
+    text-align: left;
+
+}
+.login-header{
+    background-color: rgb(0, 98, 255);
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+
+}
+span{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    color: black;
+}
+.bg-butt-header{
+    background-color: black;
+    color: white;
+}
+.nav-col{
+    background-color: rgb(0, 98, 255);
+   width: 60%;
+   padding: 10px;
+   
+}
+
+.nav-col ul{
+  list-style: none;
+  display: flex; 
+  justify-content: center; 
+    
+    
+}
+.nav-col li{
+    padding: 0px 15px;  
+}
+
+.header-bottom{
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    display: flex;
+    justify-content: center;
+    background-size: 1400px;
+    background-repeat: round;
+  
+
+    
+}
+
+.foto-header-bott{
+    background-size: 500px;
+}
+.jumbotron{
+   
+    height: 200px;
+    width: 100%;
+    display: flex;
+    margin: 40px;
+    
+    max-width: 800px;
+
+}
+.title{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+h2{
+    margin: 20px;
+    font-size: 50px;
+}
+.jumbotron p{
+    margin-bottom: 40px;
+}
+.img-main{
+    background-size: 30px;
+    padding-top: 0px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    margin: auto;
+}
+.flexcontent{
+    
+    
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+.box-blu{
+    
+    max-width: calc(100% / 1);
+    height: 500px;
+}
+.box-rosa{
+    height: 500px;
+    max-width: calc(100% / 3);
+}
+.flex1-container{
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+   
+}
+.flexcontent-b{
+    width: 40%;
+    
+}
+.flexcontent-s{
+    width: 60%;
+
+}
+.color-sfondo{
+    background-color: rgb(226, 221, 221);
+}
+
+.col-quattro{
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    margin: auto;
+    
+}
+.jumbotron1{
+    
+    height: 900px;
+    width: 100%;
+    display: flex;
+    
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.title2{
+    text-align: center;
+    
+    
+}
+.jumbotron1 h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    
+}
+.jumbotron1 h3{
+    margin-bottom: 40px;
+    font-size: 30px;
+    
+}
+
+.jumbotron1 span{
+    background-color: blueviolet;
+    color: white;
+}
+footer{
+    background-color: black;
+}
+.jumbotron1 .image-grande{
+    width: 1000px;
+
+}
+.footer-list1{
+    height: 400px;
+    
+    width: 30%;
+   
+    
+    
+
+}
+.col1-color{
+    color: blueviolet;
+    padding: 10px 15px;
+    font-size: 30px;
+}
+.col-ita{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.bandiera{
+    width: 20px;
+  
+}
+i{
+    color: white;
+    margin-top: 20px;
+    margin-right: 5px;
+
+}
+
+.footer-list2{
+    width: 70%;
+   
+    height: 400px;
+    border: dashed 2px;
+    display: flex;
+   
+}
+
+.col1{
+    
+    display: flex;
+    width: 70%;
+    max-width: calc(100% / 4);
+
+}
+.ft-nav li{
+   padding: 10px 15px;
+   color: white;
+   list-style: none;
+
+}
+.ft-nav .colorlist{
+    color: blueviolet;
+}
+
+.footer-top{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    
+    
+}
+.footer-bottom{
+    background-color: black;
+    height: 100px;
+    margin-top: 2px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    margin: auto;
+    
+
+
+}
+
+.footer-ret{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 1210px;
+    height: 50px;
+    align-items: center;
+}
+hr{
+    max-width: 1170px;
+    margin: auto;
+}
+.logo1-col{
+    color: white;
+    padding: 5px;
+   
+}
+.buttone-col{
+    color: white;
+   background-color: blueviolet;
+   padding: 10px;
+   border-radius: 50px;
+   
+}
